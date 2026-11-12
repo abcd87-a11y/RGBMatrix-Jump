@@ -3,7 +3,7 @@
 #include "Arduino.h"
 
 #include "Hardware.h"
-#include <N64Controller.h>
+//#include <N64Controller.h>
 
 class Player : public GameObject {
 private:
@@ -34,6 +34,7 @@ public:
         px = (int)x;
       }
     }
+    
     //Y-Kollision
     velocityY += gravity * dt;
     y += velocityY * dt;

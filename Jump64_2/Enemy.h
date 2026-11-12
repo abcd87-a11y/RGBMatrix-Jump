@@ -42,7 +42,6 @@ public:
     }
   }
 
-
   void draw(Adafruit_NeoPixel &mat) override {
     int px = (int)x;
     int py = (int)y;
